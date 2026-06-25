@@ -1,10 +1,7 @@
 const mongoose=require("mongoose");
 
 let postSchema= new mongoose.Schema({
-    id:{
-        type:String,
-        required:true,
-     },
+    
      username:{
         type:String,
         required:true,
