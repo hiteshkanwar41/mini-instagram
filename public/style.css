@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    min-height:100vh;
+    padding:40px 20px;
+    background:#fafafa;
+}
+
+h1{
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:25px;
+    background:linear-gradient(
+        45deg,
+        #833AB4,
+        #C13584,
+        #E1306C,
+        #F56040,
+        #FCAF45
+    );
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+a{
+    display:block;
+    width:max-content;
+    margin:0 auto 35px;
+    text-decoration:none;
+    color:white;
+    padding:12px 24px;
+    border-radius:12px;
+    font-weight:600;
+
+    background:linear-gradient(
+        45deg,
+        #833AB4,
+        #C13584,
+        #E1306C,
+        #F56040
+    );
+
+    transition:0.3s;
+}
+
+a:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(193,53,132,0.3);
+}
+
+.cont{
+    width:min(700px,90%);
+    margin:20px auto;
+    background:white;
+    padding:22px;
+    border-radius:18px;
+
+    border-top:5px solid transparent;
+    border-image:linear-gradient(
+        90deg,
+        #833AB4,
+        #C13584,
+        #E1306C,
+        #F56040,
+        #FCAF45
+    ) 1;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.cont:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(131,58,180,0.15);
+}
+
+.cont h3{
+    color:#C13584;
+    margin-bottom:12px;
+    font-size:1.2rem;
+}
+
+.cont h4{
+    color:#262626;
+    font-weight:500;
+    line-height:1.6;
+}
+#formbtn{
+     border:none;
+    padding:10px 18px;
+    border-radius:10px;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+
+    background:linear-gradient(
+        45deg,
+        #833AB4,
+        #C13584,
+        #E1306C,
+        #F56040
+    );
+}
+
+#formbtn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(193,53,132,0.3);
+}
+.create-btn{
+    display:block;
+    width:max-content;
+    margin:0 auto 35px;
+    text-decoration:none;
+    color:white;
+    padding:14px 28px;
+    border-radius:14px;
+    font-weight:600;
+    font-size:1.05rem;
+
+    background:linear-gradient(
+        45deg,
+        #833AB4,
+        #C13584,
+        #E1306C,
+        #F56040
+    );
+
+    transition:.3s;
+}
+
+.create-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(193,53,132,.3);
+}
+
+.action-btn{
+    display:inline-block;
+    text-decoration:none;
+    color:#C13584;
+    font-weight:600;
+    padding:8px 16px;
+    border:2px solid #C13584;
+    border-radius:10px;
+    background:white;
+    transition:.3s;
+}
+
+.action-btn:hover{
+    background:#C13584;
+    color:white;
+}
