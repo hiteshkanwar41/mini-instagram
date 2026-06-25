@@ -9,12 +9,15 @@
 <body>
     <h2>@<%=post.username%></h2>
     <h4><%=post.content%></h4>
-    
+     <a href="http://localhost:8080/posts/<%=post._id%>/edit" class="action-btn">Add</a>
     <% for (image of post.images){  %>
         <div class="cont">
             <img src="<%=image.url%>" alt="image">
+            <form method="POST" action="/posts/<%= post._id %>/images/<%=image._id%>?_method=DELETE">
+                <button id="formbtn">Delete</button>
+            </form>
         </div>
-        <a href="http://localhost:8080/posts/<%=post._id%>/edit" class="action-btn">edit</a>
+       
     <% } %>
 </body>
 </html>

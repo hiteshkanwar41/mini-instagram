@@ -84,6 +84,14 @@ app.patch("/posts/:id", async (req, res) => {
     res.redirect(`/posts/${id}`);
 });
 
+app.delete("/posts/:postId/images/:imageId",async(req,res)=>{
+    let{postId,imageId}=req.params;
+    let post=await Post.findById(postId);
+    post.images.id(imageId).deleteOne();
+    await post.save();
+    res.redirect(`/posts/${postId}`);
+})
+
 
 app.listen(port,()=>{
     console.log("listening to port 8080");
