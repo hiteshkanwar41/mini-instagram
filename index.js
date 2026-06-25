@@ -27,32 +27,7 @@ app.use(express.static(path.join(__dirname,"/public")));
 
 
 
-// let posts=[
-//     {
-//         id:uuidv4(),
-//         username:"Hitesh Kanwar",
-//         content:"solved 4 leetcode today",
-//         images:[
-//             {
-//                 url:"https://img.magnific.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_hybrid&w=740&q=80",
-//             }
-//         ]
-//     },
-//     {
-//         id:uuidv4(),
-//         username:"apna college",
-//         content:"Congrats Hitesh",
-//         images:[
-//             {
-//                 url:"https://img.magnific.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_hybrid&w=740&q=80",
-//             },
-//             {
-//                 url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeKOXy7GSVGKOL7rH7ttHPvOkQA17W0weeAg&s",
-//             },
-//         ]
-//     }
 
-// ]
 
 app.get("/posts",async (req,res)=>{
     let posts=await Post.find({});
