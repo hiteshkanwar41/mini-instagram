@@ -6,6 +6,24 @@ Users can create posts, upload image URLs, view posts, add multiple images to a 
 
 ---
 
+
+## 📷 Screenshots
+
+| Home Page | Create Post |
+|------------|-------------|
+| ![](screenshots/home-page.png) | ![](screenshots/create-post.png) |
+
+### View Post
+
+![](screenshots/view-post.png)
+
+---
+## 🌐 Live Demo
+
+Coming Soon...
+
+---
+
 ## 🚀 Features
 
 * Create a new post
@@ -165,4 +183,6 @@ This project helped me learn:
 
 **Hitesh Kanwar**
 
-GitHub: https://github.com/hiteshkanwar41
+
+GitHub: [@hiteshkanwar41](https://github.com/hiteshkanwar41)
+
