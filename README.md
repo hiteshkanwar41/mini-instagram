@@ -73,7 +73,7 @@ Mini-Instagram/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/HITESH3641/mini-instagram.git
+git clone https://github.com/hiteshkanwar41/mini-instagram.git
 ```
 
 ### Go inside the project
@@ -165,4 +165,4 @@ This project helped me learn:
 
 **Hitesh Kanwar**
 
-GitHub: https://github.com/HITESH3641
+GitHub: https://github.com/hiteshkanwar41
